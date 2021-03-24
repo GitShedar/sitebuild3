@@ -1,0 +1,95 @@
+@import "reset";
+$lightColor: #22b573;
+$darkColor: #000;
+$txtColor: #f1f1f1;
+$titleColor: #efd592;
+
+.App-main {
+  background-color: $lightColor;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+   
+}
+
+@media screen and (min-width: 50em) {
+  .App-main {
+    flex-direction: row;
+    height: 100vh;
+    
+  }
+}
+
+
+.App-main-box {
+    color: #fff;
+    margin: 2em;
+    width: 23em;
+    max-height: 30em;
+    }
+
+.App-main-box-content {
+  background-color: $darkColor;
+  padding: 30px;
+  height: 30em;
+  
+ }
+
+#whitebg {
+  background-color: $txtColor;
+  color: $darkColor;
+}
+
+.App-main-box-content-title {
+  color: #efd592;
+  width: 10%;
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 2em;
+}
+
+.App-main-box-content-text {
+  line-height: 1.8em;
+  margin-top: 2em;
+}
+
+.App-main-box-content-action {
+  padding: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: $titleColor;
+}
+
+.App-main-maintitle {
+  width: 100%;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #22b573;
+  background-color: #22b573;
+  }
+
+.App-main-maintitle p {
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (min-width: 50em) {
+  .App-main-maintitle {
+    display: inline;
+    color: white;
+  }
+}
+
+.play-content {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+   
+}
+
+.title-lecture {
+  margin-top:3em;
+  width: 20em;
+}
